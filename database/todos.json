@@ -1,0 +1,16 @@
+{
+  "mugilan": {
+    "home": ["Buy milk", "Look for pest control service", "Get a new carpet"],
+    "work": ["Complete the blogpost", "Create presentation for meeting"]
+  },
+  "nive": {
+    "school": ["Complete homework", "Prepare for test"]
+  },
+  "samantha": {
+    "meet": ["Dinner with Mugilan"]
+  },
+  "aravinth_raj": {
+    "school": ["Complete homework", "Prepare for test"],
+    "work": ["Create presentation for meeting"]
+  }
+}

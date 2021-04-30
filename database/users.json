@@ -1,0 +1,32 @@
+{
+  "mugilan": {
+    "id": 1,
+    "name": "Mugilan",
+    "verified": true
+  },
+  "samantha": {
+    "id": 2,
+    "name": "Samantha Akkineni",
+    "verified": true
+  },
+  "aravinth_raj": {
+    "id": 3,
+    "name": "Aravinth Raj",
+    "verified": false
+  },
+  "nive": {
+    "id": 4,
+    "name": "Nivethithaa",
+    "verified": true
+  },
+  "anbu": {
+    "id": 5,
+    "name": "Anbarasan",
+    "verified": false
+  },
+  "shalini": {
+    "id": 6,
+    "name": "Shalini",
+    "verified": false
+  }
+}
