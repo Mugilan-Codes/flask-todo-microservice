@@ -1,24 +1,22 @@
+import json
 import os
 
-import requests
-import simplejson as json
 from flask import Flask, jsonify, make_response
 
 app = Flask(__name__)
 
 database_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-print(database_path)
 
-with open(f"{database_path}/database/users.json", "r") as f:
-    usr = json.load(f)
+with open(f"{database_path}/database/todos.json", "r") as jsf:
+    todo_list = json.load(jsf)
 
 
 @app.route("/", methods=["GET"])
 def hello():
     """Greet the User"""
 
-    return "Hey! The service is up, how about doing something useful"
+    return "Todo service is up"
 
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(port=5001, debug=True)
